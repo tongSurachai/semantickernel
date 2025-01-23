@@ -1,0 +1,28 @@
+# Ignore bin and obj folders recursively
+bin/
+obj/
+
+# Ignore user-specific and temporary files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+*.exe
+*.dll
+*.pdb
+*.appx
+*.nupkg
+*.snupkg
+
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
+*.csproj.user
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
