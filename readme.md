@@ -21,4 +21,6 @@ Try [lesson1](./lesson01/readme.md) for your first hello world semantic kernel a
 
 |Lesson | Remarks |
 |-|-|
-| Lesson 01 | Create a kernel with a hello world prompt|
+| [Lesson 01](/lesson01/readme.md) | Create a kernel with a hello world prompt|
+| [Lesson 02](/lesson02/readme.md) | Create a kernel with function calling|
+| [Lesson 03](./lesson03/readme.md) | Create a kernel with function calling with parameters|
