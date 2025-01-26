@@ -2,6 +2,17 @@
 
 Creating a few lessons here for Semantic Kernel the AI development kit from Microsoft.
 
+## Install Ollama
+
+Download [Ollama](https://ollama.com/) for your operating system. Start Ollama to host the llama3.2 model for your Semantic Kernel app to use:
+
+```
+ollama run llama3.2
+```
+
+Try [lesson1](./lesson01/readme.md) for your first hello world semantic kernel app !
+
+
 ## Notes
 - You have the llama3 model running locally on ollama
 - Code samples are on C#
