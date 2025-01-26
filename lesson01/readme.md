@@ -9,6 +9,16 @@ Please refer to Ollama docs for downloading and running Ollama models on your de
 ollama run llama3.2
 ```
 
+## Run the sample
+
+Clone this sample and `dotnet run`, that's is ! You should see something like this:
+
+```
+> dotnet run
+How can I assist you today?
+```
+
+
 ## Nuget Packages required:
 
 ```

@@ -1,4 +1,12 @@
-## Function Calling
+# Function Calling
+
+To try out this sample:
+
+-  `ollama run llama3.2`
+- Clone the repo
+- `dotnet run` !
+
+# High Level notes
 
 ## Create the kernel builder for an ollama client
 

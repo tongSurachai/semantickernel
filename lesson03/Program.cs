@@ -21,7 +21,7 @@ public class MangoPlugin
 {
     [KernelFunction("GetMangoPrice")]
     [Description("Calculates the price of mangoes based on weight in kilograms. Returns price in USD.")]
-    public double GetMangoPrice(
+    public double GetMangoPrice (
         [Description("The weight of mangoes in kilograms.")]
         double numberOfKilos
     ) 
