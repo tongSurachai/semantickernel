@@ -14,6 +14,15 @@ ollama run llama3.2
 ```
 dotnet add package OllamaSharp
 dotnet add package Microsoft.SemanticKernel
-dotnet add package Microsoft.SemanticKernel.Conectors.Ollama
+dotnet add package Microsoft.SemanticKernel.Connectors.Ollama --prerelease
 ```
 
+## Create .editorconfig 
+Create editor config file to suppress warnings
+
+```
+[*.cs]
+
+# SKEXP0070: Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
+dotnet_diagnostic.SKEXP0070.severity = none
+```
