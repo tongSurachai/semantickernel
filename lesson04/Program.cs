@@ -24,7 +24,9 @@ var settings = new PromptExecutionSettings{
 
 while (true)
 {
+    Console.WriteLine();
     Console.WriteLine("How can I help ? Enter a prompt: ");
+    Console.WriteLine("--------------------------------");
 
     // Read input from console
     var prompt = Console.ReadLine();
@@ -35,22 +37,21 @@ while (true)
         var response = await kernel.InvokePromptAsync(prompt, new(settings));
         // Print the response
         Console.WriteLine(response);
+        Console.WriteLine();
     }
     else
     {
         Console.WriteLine("Prompt cannot be empty. Please enter a valid prompt.");
     }
-
-
 }
 
 // Define a MangoPlugin class with a GetMangoPrice function
 public class MangoPlugin
 {
     [KernelFunction("GetMangoPrice")]
-    [Description("Calculates the price of mangoes based on weight in kilograms. Returns price in USD.")]
+    [Description("Calculates the price of mangoes based on the number of kilograms provided via numberOfKilos parameter. Answer always in United States Dollars and no other currency")]
     public double GetMangoPrice (
-        [Description("The weight of mangoes in kilograms.")]
+        [Description("The weight of mangoes in kilograms (also referred to as kilos).")]
         double numberOfKilos
     ) 
     {
