@@ -2,8 +2,6 @@
 using Microsoft.SemanticKernel;
 using OllamaSharp;
 using System.ComponentModel;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.DependencyInjection;
 
 
 // Create a kernel with an Ollama Client
@@ -30,8 +28,6 @@ var settings = new PromptExecutionSettings
 
  
 //// Invoke the prompt
-//var response = await kernel.InvokePromptAsync("Navigate to qnet.net and capture a screenshot", new(settings));
-//Console.WriteLine(response);
 
 while (true) // Infinite loop to keep the interaction running
 {
@@ -43,7 +39,8 @@ while (true) // Infinite loop to keep the interaction running
 
     Console.WriteLine("Thinking...");
 
-    var response = await kernel.InvokePromptAsync(userInput, new(settings));
+    //var response = await kernel.InvokePromptAsync(userInput, new(settings));
+    var response = await kernel.InvokePromptAsync(userInput);
     Console.WriteLine("🤖 " + response);
 }
 
