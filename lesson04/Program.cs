@@ -22,6 +22,7 @@ var settings = new PromptExecutionSettings{
     FunctionChoiceBehavior = FunctionChoiceBehavior.Auto()
 };
 
+
 while (true)
 {
     Console.WriteLine();

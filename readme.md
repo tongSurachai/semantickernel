@@ -25,3 +25,4 @@ Try [lesson1](./lesson01/readme.md) for your first hello world semantic kernel a
 | [Lesson 02](/lesson02/readme.md) | Create a kernel with function calling|
 | [Lesson 03](./lesson03/readme.md) | Create a kernel with function calling with parameters|
 | [Lesson 04](./lesson04/readme.md) | Create a console chat app with multiple plugins|
+| [Lesson 05](./lesson05/readme.md) | Same as lesson04 with chat completion service|
