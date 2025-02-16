@@ -11,8 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\hellokernel\hellokernel.csproj" />
-    <ProjectReference Include="..\AspireApp.Web\AspireApp.Web.csproj" />
+    <ProjectReference Include="..\KernelApi\KernelApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>

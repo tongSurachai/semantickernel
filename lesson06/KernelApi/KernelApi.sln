@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KernelApi", "KernelApi.csproj", "{C176FFCE-1B75-4119-0762-D3E70E4153F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C176FFCE-1B75-4119-0762-D3E70E4153F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C176FFCE-1B75-4119-0762-D3E70E4153F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C176FFCE-1B75-4119-0762-D3E70E4153F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C176FFCE-1B75-4119-0762-D3E70E4153F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE779FA3-BB05-40BC-838B-933AB63BA81C}
+	EndGlobalSection
+EndGlobal
