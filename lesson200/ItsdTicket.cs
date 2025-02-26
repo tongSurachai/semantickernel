@@ -19,6 +19,6 @@ internal sealed class ItsdTicket<TKey>
     public string? metadata { get; set; }
 
     //[VectorStoreRecordVector(4, DistanceFunction.CosineDistance, IndexKind.Hnsw)]
-    [VectorStoreRecordVector(Dimensions: 3072)]
+    [VectorStoreRecordVector(Dimensions: 3072, DistanceFunction.CosineDistance)]
     public ReadOnlyMemory<float> embedding { get; set; }
 }
